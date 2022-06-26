@@ -12,20 +12,20 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['94729352830']
-global.premium = ['94729352830']
-global.ownernomer = '94729352830'
-global.ownername = 'ШHłТΞ HΛϾКΞЯS'
-global.botname = '[🇱🇰𝚱𝚰𝚴Ｇ 𝛃𝚯𝚪🤘]'
-global.footer = '</> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋɪɴɢ ʙᴏᴛ </>️ ▷'
-global.ig = 'https://github.com/KING-BOT-OFFICIAL'
+global.owner = ['94716388240']
+global.premium = ['94716388240']
+global.ownernomer = '94716388240'
+global.ownername = '𝚂𝙻 𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙼𝙴𝚁𝚂'
+global.botname = '𝚂𝙻 𝚆𝙰 𝙱𝙾𝚃'
+global.footer = '</> 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝚂𝙻 𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙼𝙴𝚁𝚂 </>'
+global.ig = 'https://github.com/cyberdev001/SL-PROGRAMMERS-MD'
 global.region = 'Sri Lanka'
-global.sc = 'https://github.com/KING-BOT-OFFICIAL/KING-BOT-MD'
-global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
-global.packname = '[🇱🇰𝚱𝚰𝚴Ｇ 𝛃𝚯𝚪🤘]'
-global.author = 'ШHłТΞ HΛϾКΞЯS'
+global.sc = 'https://github.com/cyberdev001/SL-PROGRAMMERS-MD'
+global.myweb = 'https://youtube.com/channel/UChMPU0p6C_turIlKkH0Nvig'
+global.packname = '𝚂𝙻 𝚆𝙰 𝙱𝙾𝚃'
+global.author = '𝚂𝙻 𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙼𝙴𝚁𝚂'
 global.sessionName = 'session'
-global.prefa = ['','!','.','🇱🇰','⚙️','🤘']
+global.prefa = ['','!','.','🌿','🔥','🎮']
 global.sp = '⭔'
 global.mess = {
     success: 'Done ✓',
