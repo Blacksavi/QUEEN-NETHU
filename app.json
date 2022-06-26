@@ -1,5 +1,5 @@
 {
-  "name": "KING BOT - MD V1",
+  "name": "SLP BOT - MD V1",
   "description": "whatsapp md bot build with nodejs",
   "repository": "https://github.com/KING-BOT-OFFICIAL/KING-BOT-MD",
   "logo": "https://telegra.ph/file/24b9b8507613125d34bd1.jpg",
@@ -8,22 +8,22 @@
         "OWNER_NUMBER": {
             "description": "",
             "required": true,
-            "value":"94729352830"
+            "value":"94716388240"
         },
         "OWNER_NAME": {
             "description": "",
             "required": true,
-            "value":"ШHłТΞ HΛϾКΞЯS"
+            "value":"𝙲𝚈𝙱𝙴𝚁_𝙳𝙴𝚅𝙸𝙻"
         },
         "BOT_NAME": {
             "description": "",
             "required": true,
-            "value":"[🇱🇰𝚱𝚰𝚴Ｇ 𝛃𝚯𝚪🤘] ᎷᎠ"
+            "value":"🌿𝚂𝙻 𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙼𝙴𝚁𝚂 𝚆𝙰 𝙱𝙾𝚃🌿"
         },
        "STICKER_PACKAGE": {
             "description": "",
             "required": true,
-            "value":"[🇱🇰𝚱𝚰𝚴Ｇ 𝛃𝚯𝚪🤘]"
+            "value":"🌿𝚂𝙻𝙿 𝙱𝙾𝚃🌿"
         },
         "HEROKU_APP_NAME": {
             "description": "",
