@@ -1,8 +1,8 @@
 {
   "name": "SLP BOT - MD V1",
   "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/KING-BOT-OFFICIAL/KING-BOT-MD",
-  "logo": "https://telegra.ph/file/24b9b8507613125d34bd1.jpg",
+  "repository": "https://github.com/cyberdev001/SL-PROGRAMMERS-MD",
+  "logo": "https://i.ibb.co/j5Qd88m/IMG-20220626-WA0081.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "env": { 
         "OWNER_NUMBER": {
