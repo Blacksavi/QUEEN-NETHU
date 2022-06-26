@@ -38,22 +38,22 @@
         "SONG_DOWNLOAD": {
             "description": "",
             "required": true,
-            "value":"session"
+            "value":"❤️‍🩹𝙳ᴼᵂᴺᴸᴼᴬᴰᴵᴺᴳ 𝚈ᴼᵁᴿᴱ 𝚂𝙾𝙽𝙶❤️‍🩹"
         },
         "SOND_UPLOAD": {
             "description": "",
             "required": true,
-            "value":"session"
+            "value":"🌿𝚄ᴾᴸᴼᴬᴰᴵᴺᴳ 𝚈ᴼᵁᴿᴱ 𝚂𝙾𝙽𝙶🌿"
         },
         "VIDEO_DOWNLOAD": {
             "description": "",
             "required": true,
-            "value":"session"
+            "value":"🔥𝙳ᴼᵂᴺᴸᴼᴬᴰᴵᴺᴳ 𝚈ᴼᵁᴿᴱ 𝚅𝙸𝙳𝙴𝙾🔥"
         },
          "VIDEO_UPLOAD": {
             "description": "",
             "required": true,
-            "value":"session"
+            "value":"🌿𝚄ᴾᴸᴼᴬᴰᴵᴺᴳ 𝚈ᴼᵁᴿᴱ 𝚅𝙸𝙳𝙴𝙾🌿"
         }
    },
     "buildpacks": [
