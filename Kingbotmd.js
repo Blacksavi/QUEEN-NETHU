@@ -3418,8 +3418,7 @@ reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, 
                            	timestampe = speed();
 latensie = speed() - timestampe
  anu = `
-🌿 Hi 👋 ${pushname}
-❤️‍🩹𝚂ʟ ᴡᴀ 𝙱𝙾𝚃❤️‍🩹      
+🌿 Hi 👋 ${pushname}      
 🌿ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ🌿             
 
         *「 BOT INFO 」*
@@ -3427,7 +3426,7 @@ latensie = speed() - timestampe
 
 ❤️‍🩹 RUNTIME : ${runtime(process.uptime())}
 
-🎮 BOT NAME : ${global.botname}
+🎮 BOT NAME :🍒 MIZTY 🍒
 
 😇 OWNER NAME : ${global.ownername}
 
@@ -3479,22 +3478,21 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                      case 'bot':{
                            	timestampe = speed();
 latensie = speed() - timestampe
- anu = ` 🌿𝚂ᴸ 𝙿ᴿᴼᴳᴿᴬᴹᴹᴱᴿˢ 𝙾𝚆𝙽𝙴𝚁 𝙱𝙾𝚃🌿
+ anu = ` 🍒 ᴍɪᴢᴛʏ 🍒
  
- 🎲 𝐎𝐰𝐧𝐞𝐫 & 𝐅𝐨𝐮𝐧𝐝𝐞𝐫 - 𝙲𝚈𝙱𝙴𝚁_𝙳𝙴𝚅𝙸𝙻
- 🎲 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 - ΝϴᎠᎬ.ᎫՏ
+ 🎲 𝐎𝐰𝐧𝐞𝐫 - 𝙲𝚈𝙱𝙴𝚁_𝙳𝙴𝚅𝙸𝙻
  
-            *🍒 ᴀᴅᴍɪɴ ™🍒*
+            *🍃 ᴀᴅᴍɪɴ ™🍃*
             
-     🌿 𝚂𝙿𝙴𝙲𝙸𝙰𝙻 𝚃𝙷𝙰𝙽𝙺𝚂 𝙵𝙾𝚁 🌿
-🔰 𝙳𝙸𝙽𝙰
+     🔥 𝚂𝙿𝙴𝙲𝙸𝙰𝙻 𝚃𝙷𝙰𝙽𝙺𝚂 𝙵𝙾𝚁 🔥
+🔰 ᴅɪɴᴀ
 🔰 𝙺𝙸𝙽𝙶 𝙱𝙾𝚃 𝙾𝚆𝙽𝙴𝚁
 🔰 𝚃𝙸𝙶𝙴𝚁 𝚃𝙴𝙲𝙷
            
             
      *🔰 ꜰᴏʀ 24/7 ʜᴇʟᴘ ᴍꜱɢ ᴍᴇ 🔰*
                      
- *🌿𝚂ᴸ 𝙿ᴿᴼᴳᴿᴬᴹᴹᴱᴿˢ🌿*`
+🍂 ᴡᴇ ᴀʀᴇ ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ 🍂`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
@@ -3537,23 +3535,25 @@ break
             case 'list': case 'menu': case 'panel': case 'help' :{
             	timestampe = speed();
 latensie = speed() - timestampe
-                anu = `🌿ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ🌿
+                anu = `🍁 ʜɪ ɪ ᴀᴍ ᴏɴʟɪɴᴇ ɴᴏᴡ 🍁
+🍊 ᴏᴡɴᴇʀ - ᴄʏʙᴇʀ_ᴅᴇᴠɪʟ
 
+🍇 ᴏᴡɴᴇʀ ᴛᴇᴀᴍ - ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ
 
+🌿 ʜᴀᴄᴋᴇʀ ʏᴏᴜʀᴇ ʟɪꜰᴇ 🌿
 
-🌿
-
-𝚃𝙷𝙸𝚂 𝙸𝚂 🍒𝚂ʟ ᴡᴀ ʙᴏᴛ CMD MENU🍒`
+            🍒 ᴍɪᴢᴛʏ 🍒
+`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./KINGMedia/logo.jpeg')}, 
-                            hydratedFooterText: '</> 𝙱𝚈 𝚂𝙻 𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙼𝙴𝚁𝚂 </>️ ▷',
+                            hydratedFooterText: '© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ',
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: '🌿 YOUTUBE 🌿',
+                                    displayText: '🍒 YOUTUBE 🍒',
                                     url: `${myweb}`
                                 }
                             }, {
@@ -3563,12 +3563,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🍂 ALL MENU 🍂',
+                                    displayText: '🍒 ALL MENU 🍒',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🍁 LIST MENU 🍁',
+                                    displayText: '🍒 LIST MENU 🍒',
                                     id: `${prefix}command`
                                 }
                                 }, {
