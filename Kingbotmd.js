@@ -2119,16 +2119,25 @@ break
 
     *❤️‍🩹🌿 𝚂ᴼᴺᴳ 𝙳ᴼᵂᴺᴸᴼᴬᴰᴱᴿ 🌿❤️‍🩹*
    
-💠 Title : ${anu.title}
-💠 Description : ${anu.description}
-💠 Ext : Search
-💠 ID : ${anu.videoId}
-💠 Duration : ${anu.timestamp}
-💠 Viewes : ${anu.views}
-💠 Uploaded On : ${anu.ago}
-💠 Author : ${anu.author.name}
-💠 Channel : ${anu.author.url}
-💠 Url : ${anu.url}`,
+🌿 Title : ${anu.title}
+
+❤️‍🩹 Description : ${anu.description}
+
+🌿 Ext : Search
+
+❤️‍🩹 ID : ${anu.videoId}
+
+🌿 Duration : ${anu.timestamp}
+
+❤️‍🩹 Viewes : ${anu.views}
+
+🌿 Uploaded On : ${anu.ago}
+
+❤️‍🩹 Author : ${anu.author.name}
+
+🌿 Channel : ${anu.author.url}
+
+❤️‍🩹 Url : ${anu.url}`,
                     footer: '</> ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝚂ᴸ 𝙿ᴿᴼᴳᴿᴬᴹᴹᴱᴿˢ </>️ ▷',
                     buttons: buttons,
                     headerType: 4
@@ -2150,16 +2159,25 @@ break
                     caption: ` 🌿𝚂ᴸ 𝙿ᴿᴼᴳᴿᴬᴹᴹᴱᴿˢ 𝚆𝙰 𝙱𝙾𝚃🌿
          *❤️‍🩹🌿 𝚅ᴵᴰᴱᴼ 𝙳ᴼᵂᴺᴸᴼᴬᴰᴱᴿ 🌿❤️‍🩹*
           
-💠 Title : ${anu.title}
-💠 Ext : Search
-💠 ID : ${anu.videoId}
-💠 Duration : ${anu.timestamp}
-💠 Viewes : ${anu.views}
-💠 Uploaded On : ${anu.ago}
-💠 Author : ${anu.author.name}
-💠 Channel : ${anu.author.url}
-💠 Description : ${anu.description}
-💠 Url : ${anu.url}`,
+🌿 Title : ${anu.title}
+
+❤️‍🩹 Ext : Search
+
+🌿 ID : ${anu.videoId}
+
+❤️‍🩹 Duration : ${anu.timestamp}
+
+🌿 Viewes : ${anu.views}
+
+❤️‍🩹 Uploaded On : ${anu.ago}
+
+🌿 Author : ${anu.author.name}
+
+❤️‍🩹 Channel : ${anu.author.url}
+
+🌿 Description : ${anu.description}
+
+❤️‍🩹 Url : ${anu.url}`,
                     footer: '</> ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝚂ᴸ 𝙿ᴿᴼᴳᴿᴬᴹᴹᴱᴿˢ </>️ ▷',
                     buttons: buttons,
                     headerType: 4
@@ -3386,28 +3404,27 @@ reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, 
                      case 'alive' :{
                            	timestampe = speed();
 latensie = speed() - timestampe
- anu = `┌────────────────❖
-│💠「 Hi 👋  ${pushname} 」
-│💠  🌿𝚂ᴸ 𝙿ᴿᴼᴳᴿᴬᴹᴹᴱᴿˢ 𝙱𝙾𝚃🌿
-│💠 ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝚂ᴸ 𝙿ᴿᴼᴳᴿᴬᴹᴹᴱᴿˢ
-├────────────────❖
-│        *「 BOT INFO 」*
-│🎲 SPEED : ${latensie.toFixed(4)} miliseconds
-│🎲 RUNTIME : ${runtime(process.uptime())}
-│🎭 BOT NAME : ${global.botname}
-│🎭 OWNER NAME : ${global.ownername}
-│🎭 OWNER NUMBER : ${global.owner}
-│🔥 HOST NAME : ${os.hostname()}
-│🔥 PLATFORM : ${os.platform()}
-│🔥 TOTAL USERS : ${Object.keys(global.db.data.users).length}
-└────────────────❖ `
+ anu = `
+🌿   Hi 👋  ${pushname}
+❤️‍🩹 𝚂ᴸ 𝙿ᴿᴼᴳᴿᴬᴹᴹᴱᴿˢ 𝙱𝙾𝚃
+🌿   🔥ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝚂ᴸ 𝙿ᴿᴼᴳᴿᴬᴹᴹᴱᴿˢ🔥
+
+        *「 BOT INFO 」*
+🎲 SPEED : ${latensie.toFixed(4)} miliseconds
+🎲 RUNTIME : ${runtime(process.uptime())}
+🎭 BOT NAME : ${global.botname}
+🎭 OWNER NAME : ${global.ownername}
+🎭 OWNER NUMBER : ${global.owner}
+🔥 PLATFORM : ${os.platform()}
+🔥 TOTAL USERS : ${Object.keys(global.db.data.users).length}
+`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./KINGMedia/logo.jpeg')},
-                            hydratedFooterText: '</> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋɪɴɢ ʙᴏᴛ </>️ ▷',
+                            jpegThumbnail: fs.readFileSync('./KINGMedia/logo.jpg')},
+                            hydratedFooterText: '</> 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝚂ˡ 𝙿ʳᵒᵍʳᵃᵐᵐᵉʳˢ </>️ ',
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: '🔥 YOUTUBE 🔥',
@@ -3501,11 +3518,9 @@ break
             case 'list': case 'menu': case 'panel': case 'help' :{
             	timestampe = speed();
 latensie = speed() - timestampe
-                anu = `┏━━━━━━━━━━━━━━━┓
-┃       [🇱🇰𝚱𝚰𝚴Ｇ 𝛃𝚯𝚪🤘] - MD        ┃
-┗━━━━━━━━━━━━━━━┛
+                anu = `🌿𝚂ᴸ 𝙿ᴿᴼᴳᴿᴬᴹᴹᴱᴿˢ🌿
 
-THIS IS [🇱🇰𝚱𝚰𝚴Ｇ 𝛃𝚯𝚪🤘] CMD MENU`
+𝚃𝙷𝙸𝚂 𝙸𝚂 🌿𝚂ˡ 𝙿ᴿᴼᴳᴿᴬᴹᴹᴱᴿˢ🌿 CMD MENU`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
@@ -3906,7 +3921,7 @@ case 'allmenu': {
 ┃╠${prefix}masasubur (indo)
 ┃╠${prefix}zodiak (indo)
 ┃╠${prefix}shio (indo)
-┃╚═══════✍︎𝑁𝑒𝑥𝑢𝑠𝑁𝑤
+┃╚═══════✍︎𝚂𝙻 𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙼𝙴𝚁𝚂
 ┗━「 *Created By ${ownername}*  𖠌」━⭓`
     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
