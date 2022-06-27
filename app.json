@@ -1,29 +1,29 @@
 {
-  "name": "SLP BOT - MD V1",
+  "name": "KING BOT - MD V1",
   "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/cyberdev001/SL-PROGRAMMERS-MD",
-  "logo": "https://i.ibb.co/j5Qd88m/IMG-20220626-WA0081.jpg",
+  "repository": "https://github.com/KING-BOT-OFFICIAL/KING-BOT-MD",
+  "logo": "https://telegra.ph/file/24b9b8507613125d34bd1.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "env": { 
         "OWNER_NUMBER": {
             "description": "",
             "required": true,
-            "value":"94716388240"
+            "value":"94729352830"
         },
         "OWNER_NAME": {
             "description": "",
             "required": true,
-            "value":"𝙲𝚈𝙱𝙴𝚁_𝙳𝙴𝚅𝙸𝙻"
+            "value":"ШHłТΞ HΛϾКΞЯS"
         },
         "BOT_NAME": {
             "description": "",
             "required": true,
-            "value":"🌿𝚂𝙻 𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙼𝙴𝚁𝚂 𝚆𝙰 𝙱𝙾𝚃🌿"
+            "value":"[🇱🇰𝚱𝚰𝚴Ｇ 𝛃𝚯𝚪🤘] ᎷᎠ"
         },
        "STICKER_PACKAGE": {
             "description": "",
             "required": true,
-            "value":"🌿𝚂𝙻𝙿 𝙱𝙾𝚃🌿"
+            "value":"[🇱🇰𝚱𝚰𝚴Ｇ 𝛃𝚯𝚪🤘]"
         },
         "HEROKU_APP_NAME": {
             "description": "",
@@ -38,22 +38,22 @@
         "SONG_DOWNLOAD": {
             "description": "",
             "required": true,
-            "value":"❤️‍🩹𝙳ᴼᵂᴺᴸᴼᴬᴰᴵᴺᴳ 𝚈ᴼᵁᴿᴱ 𝚂𝙾𝙽𝙶❤️‍🩹"
+            "value":"session"
         },
         "SOND_UPLOAD": {
             "description": "",
             "required": true,
-            "value":"🌿𝚄ᴾᴸᴼᴬᴰᴵᴺᴳ 𝚈ᴼᵁᴿᴱ 𝚂𝙾𝙽𝙶🌿"
+            "value":"session"
         },
         "VIDEO_DOWNLOAD": {
             "description": "",
             "required": true,
-            "value":"🔥𝙳ᴼᵂᴺᴸᴼᴬᴰᴵᴺᴳ 𝚈ᴼᵁᴿᴱ 𝚅𝙸𝙳𝙴𝙾🔥"
+            "value":"session"
         },
          "VIDEO_UPLOAD": {
             "description": "",
             "required": true,
-            "value":"🌿𝚄ᴾᴸᴼᴬᴰᴵᴺᴳ 𝚈ᴼᵁᴿᴱ 𝚅𝙸𝙳𝙴𝙾🌿"
+            "value":"session"
         }
    },
     "buildpacks": [
