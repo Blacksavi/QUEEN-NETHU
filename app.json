@@ -1,8 +1,8 @@
 {
-  "name": "KING BOT - MD V1",
+  "name": "🌿𝚂ˡ 𝙿ʳᵒᵍʳᵃᵐᵐᵉʳˢ🌿 ᎷᎠ V1",
   "description": "whatsapp md bot build with nodejs",
   "repository": "https://github.com/KING-BOT-OFFICIAL/KING-BOT-MD",
-  "logo": "https://telegra.ph/file/24b9b8507613125d34bd1.jpg",
+  "logo": "https://i.ibb.co/TthNM8P/null-20220626-WA0109.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "env": { 
         "OWNER_NUMBER": {
