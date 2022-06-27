@@ -862,7 +862,7 @@ if (q.includes('--help')) return reply(examkosong)
       {
        buttonId: `${prefix + command}`, 
        buttonText: {
-        displayText: 'Hunt Again️🏹'
+        displayText: 'Hunt Again️🏹 මරපන්'
       }, type: 1},
     ]
     let buttonMessage = {
@@ -1298,7 +1298,7 @@ KingmdWH.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${san
       case 'laund':
       case 'nigga':
       case 'sexy':
-      case 'hot': {
+      case 'බූරුවා': {
             if (!m.isGroup) return replay(`${mess.group}`)
             let member = participants.map(u => u.id)
             let me = m.sender
@@ -1452,7 +1452,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
                 if (!m.isGroup) return replay(`${mess.group}`)
                 if (!isBotAdmins) return replay(`${mess.botAdmin}`)
                 if (!isAdmins) return replay(`${mess.admin}`)
-let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝ 
+let teks = `╚»˙·٠•●🌿 Tag All 🌿●•٠·˙«╝ 
  
  ➲ *Message : ${q ? q : 'no message'}*\n\n`
                 for (let mem of participants) {
@@ -1767,7 +1767,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🎀Menu🎀',
+                                    displayText: '❤️‍🩹Menu❤️‍🩹',
                                     id: 'menu'
                                 }
                             }, {
@@ -1776,7 +1776,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `「 GOJO-SATORU HERE🎉 」\n\n${text}`
+                      let txt = `「🌿IM🌿 HERE🎉 」\n\n${text}`
                       KingmdWH.send5ButImg(i, txt, KingmdWH.user.name, global.thumb, btn)
                     }
                 reply(`Successful Sending Broadcast To ${anu.length} Group(s)`)
@@ -1810,7 +1810,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `「 GOJO-SATORU HERE 🎉」\n\n${text}`
+                      let txt = `「 🌿IM🌿 HERE 🎉」\n\n${text}`
                       KingmdWH.send5ButImg(yoi, txt, KingmdWH.user.name, global.thumb, btn)
 		}
 		reply('Broadcast Success')
@@ -2087,16 +2087,25 @@ break
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
                     caption: `
-🔥 Title : ${anu.title}
-🔥 Ext : Search
-🔥 ID : ${anu.videoId}
-🔥 Duration : ${anu.timestamp}
-🔥 Viewes : ${anu.views}
-🔥 Uploaded On : ${anu.ago}
-🔥 Author : ${anu.author.name}
-🔥 Channel : ${anu.author.url}
-🔥 Description : ${anu.description}
-🔥 Url : ${anu.url}`,
+🌿 Title : ${anu.title}
+
+❤️‍🩹 Ext : Search
+
+🌿 ID : ${anu.videoId}
+
+❤️‍🩹 Duration : ${anu.timestamp}
+
+🌿 Viewes : ${anu.views}
+
+❤️‍🩹 Uploaded On : ${anu.ago}
+
+🌿 Author : ${anu.author.name}
+
+❤️‍🩹 Channel : ${anu.author.url}
+
+🌿 Description : ${anu.description}
+
+❤️‍🩹 Url : ${anu.url}`,
                     footer: KingmdWH.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -2110,8 +2119,8 @@ break
                 let search = await yts(text)
                 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
                 let buttons = [
-                    {buttonId: `hsong ${anu.url}`, buttonText: {displayText: '🔥 HIGH QUALITY 🔥'}, type: 1},
-                    {buttonId: `msong  ${anu.url}`, buttonText: {displayText: '🎲 MEDIUM QUALITY 🎲️'}, type: 1}
+                    {buttonId: `hsong ${anu.url}`, buttonText: {displayText: '🌿 HIGH QUALITY 🌿'}, type: 1},
+                    {buttonId: `msong  ${anu.url}`, buttonText: {displayText: '❤️‍🩹 MEDIUM QUALITY ❤️‍🩹'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
@@ -2947,11 +2956,15 @@ case 'webtonsearch': case 'webtoon':
 		    let buttonMessage = {
 		        image: { url: anu.author.profilePic },
 			caption: `
-🔥 Title : ${anu.title}
-🔥 Author : ${anu.author.name}
-🔥 Like : ${anu.like}
-🔥 Caption : ${anu.caption}
-🔥 Url : ${anu.media[0]}
+🌿 Title : ${anu.title}
+
+❤️‍🩹 Author : ${anu.author.name}
+
+🌿 Like : ${anu.like}
+
+❤️‍🩹 Caption : ${anu.caption}
+
+🌿 Url : ${anu.media[0]}
 To Download Media, Please Click One Of The Buttons Below Or Enter The ytmp3/ytmp4 Command With The Url Above
 `,
 			footer: KingmdWH.user.name,
@@ -3405,18 +3418,24 @@ reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, 
                            	timestampe = speed();
 latensie = speed() - timestampe
  anu = `
-🌿   Hi 👋  ${pushname}
-❤️‍🩹 𝚂ᴸ 𝙿ᴿᴼᴳᴿᴬᴹᴹᴱᴿˢ 𝙱𝙾𝚃
-🌿   🔥ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝚂ᴸ 𝙿ᴿᴼᴳᴿᴬᴹᴹᴱᴿˢ🔥
+🌿 Hi 👋 ${pushname}
+❤️‍🩹𝚂ᴸ 𝙿ᴿᴼᴳᴿᴬᴹᴹᴱᴿˢ 𝙱𝙾𝚃        
+🌿🔥ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝚂ᴸ 𝙿ᴿᴼᴳᴿᴬᴹᴹᴱᴿˢ🔥               
 
         *「 BOT INFO 」*
-🎲 SPEED : ${latensie.toFixed(4)} miliseconds
-🎲 RUNTIME : ${runtime(process.uptime())}
-🎭 BOT NAME : ${global.botname}
-🎭 OWNER NAME : ${global.ownername}
-🎭 OWNER NUMBER : ${global.owner}
-🔥 PLATFORM : ${os.platform()}
-🔥 TOTAL USERS : ${Object.keys(global.db.data.users).length}
+🌿 SPEED : ${latensie.toFixed(4)} miliseconds
+
+❤️‍🩹 RUNTIME : ${runtime(process.uptime())}
+
+🎮 BOT NAME : ${global.botname}
+
+😇 OWNER NAME : ${global.ownername}
+
+🌿 OWNER NUMBER : ${global.owner}
+
+🎮 PLATFORM : ${os.platform()}
+
+😼 TOTAL USERS : ${Object.keys(global.db.data.users).length}
 `
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -3427,27 +3446,27 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: '</> 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝚂ˡ 𝙿ʳᵒᵍʳᵃᵐᵐᵉʳˢ </>️ ',
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: '🔥 YOUTUBE 🔥',
+                                    displayText: '🌿 YOUTUBE 🌿',
                                     url: `${myweb}`
                                 }
                             }, {
                             	urlButton: {
-                                displayText: '🔥 GITHUB 🔥',
+                                displayText: '❤️‍🩹 GITHUB ❤️‍🩹',
                                     url: `${sc}`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🎭 LIST MENU 🎭',
+                                    displayText: '🌿 LIST MENU 🌿',
                                     id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '⚙️ SYSTEM STATUS ⚙️',
+                                    displayText: '🎮 SYSTEM STATUS 🎮',
                                     id: `${prefix}ping`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🇱🇰 OWNER 🇱🇰',
+                                    displayText: '🌿 OWNER 🌿',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3467,15 +3486,15 @@ latensie = speed() - timestampe
  
             *🍒 ᴀᴅᴍɪɴ ™🍒*
             
-🔰 𝚉𝙾𝙽𝙴 
-🔰 𝚉𝙾𝙽𝙴
-🔰 𝚉𝙾𝙽𝙴
-🔰 𝚉𝙾𝙽𝙴
+     🌿 𝚂𝙿𝙴𝙲𝙸𝙰𝙻 𝚃𝙷𝙰𝙽𝙺𝚂 𝙵𝙾𝚁 🌿
+🔰 𝙳𝙸𝙽𝙰
+🔰 𝙺𝙸𝙽𝙶 𝙱𝙾𝚃 𝙾𝚆𝙽𝙴𝚁
+🔰 𝚃𝙸𝙶𝙴𝚁 𝚃𝙴𝙲𝙷
            
             
-             *🔰 ꜰᴏʀ 24/7 ʜᴇʟᴘ ᴍꜱɢ ᴍᴇ 🔰*
+     *🔰 ꜰᴏʀ 24/7 ʜᴇʟᴘ ᴍꜱɢ ᴍᴇ 🔰*
                      
-  *🔥 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐜𝐡𝐨𝐨𝐬𝐢𝐧𝐠 🌿𝚂ᴸ 𝙿ᴿᴼᴳᴿᴬᴹᴹᴱᴿˢ🌿 🔥*`
+ *🌿𝚂ᴸ 𝙿ᴿᴼᴳᴿᴬᴹᴹᴱᴿˢ🌿*`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
@@ -3485,27 +3504,27 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: '</> ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝚂ᴸ 𝙿ᴿᴼᴳᴿᴬᴹᴹᴱᴿˢ </>️ ▷',
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: '🔥 YOUTUBE 🔥',
+                                    displayText: '🍁 YOUTUBE 🍁',
                                     url: `${myweb}`
                                 }
                             }, {
                             	urlButton: {
-                                displayText: '🔥 GITHUB 🔥',
+                                displayText: '🍂 GITHUB 🍂',
                                     url: `${sc}`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🎭 LIST MENU 🎭',
+                                    displayText: '🌿 LIST MENU 🌿',
                                     id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '⚙️ SYSTEM STATUS ⚙️',
+                                    displayText: '❤️‍🩹 SYSTEM STATUS ❤️‍🩹',
                                     id: `${prefix}ping`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🇱🇰 OWNER 🇱🇰',
+                                    displayText: '🌿 OWNER 🌿',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3527,30 +3546,30 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./KINGMedia/logo.jpeg')}, 
-                            hydratedFooterText: '</> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋɪɴɢ ʙᴏᴛ </>️ ▷',
+                            hydratedFooterText: '</> 𝙱𝚈 𝚂𝙻 𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙼𝙴𝚁𝚂 </>️ ▷',
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: '🔥 YOUTUBE 🔥',
+                                    displayText: '🌿 YOUTUBE 🌿',
                                     url: `${myweb}`
                                 }
                             }, {
                             	urlButton: {
-                                displayText: '🔥 GITHUB 🔥',
+                                displayText: '❤️‍🩹 GITHUB ❤️‍🩹',
                                     url: `${sc}`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🎲 ALL MENU 🎲',
+                                    displayText: '🍂 ALL MENU 🍂',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🎭 LIST MENU 🎭',
+                                    displayText: '🍁 LIST MENU 🍁',
                                     id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🇱🇰 OWNER 🇱🇰',
+                                    displayText: '🍃 OWNER 🍃',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3686,7 +3705,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
     case 'donasi': case 'donate': case 'sewabot': case 'sewa': {
-                KingmdWH.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c15f725add0381fb69c4b.jpg' }, caption: `*Hi Bro ${m.pushName}*\nDonation section is currently down🥲 , I know you are happy but me 🥲💔\n` }, { quoted: m })
+                KingmdWH.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/TthNM8P/null-20220626-WA0109.jpg' }, caption: `*Hi Bro ${m.pushName}*\nDonation section is currently down🥲 , I know you are happy but me 🥲💔\n` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
@@ -3695,8 +3714,8 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             break
 case 'allmenu': {
   	anu = `
-┏━「 *${botname}* 」━━⭓ 
-┃╔══☯︎「 MAIN 」☯︎
+┏━「 *${botname}* 」
+┃╔══🌿「 MAIN 」🌿
 ┃╠ ${prefix}alive
 ┃╠ ${prefix}script
 ┃╠ ${prefix}speedtest
@@ -3710,7 +3729,7 @@ case 'allmenu': {
 ┃╠ ${prefix}listgc
 ┃╠ ${prefix}donate
 ┃╠ ${prefix}report [bug]
-┃╠══✪「 OWNER 」 ☯︎
+┃╠══❤️‍🩹「 OWNER 」 ❤️‍🩹
 ┃╠ ${prefix}chat [option]
 ┃╠ ${prefix}join [link]
 ┃╠ ${prefix}leave
@@ -3720,7 +3739,7 @@ case 'allmenu': {
 ┃╠ ${prefix}bcall [text]
 ┃╠ ${prefix}setppbot [image]
 ┃╠ ${prefix}setexif
-┃╠══✪「 GROUP 」 ☯︎      
+┃╠══🍃「 GROUP 」 🍃      
 ┃╠${prefix}grouplink
 ┃╠${prefix}ephemeral [option]
 ┃╠${prefix}setgcpp [image]
@@ -3741,7 +3760,7 @@ case 'allmenu': {
 ┃╠${prefix}upvote
 ┃╠${prefix}checkvote
 ┃╠${prefix}delvote
-┃╠══☯︎「 RPG 」 ☯︎
+┃╠══🍂「 RPG 」 🍂
 ┃╠${prefix}hunting
 ┃╠${prefix}mining
 ┃╠${prefix}heal
@@ -3751,7 +3770,7 @@ case 'allmenu': {
 ┃╠${prefix}leaderboard
 ┃╠${prefix}buy [option]
 ┃╠${prefix}sell [option]
-┃╠═✪「 DOWNLOADER 」☯︎
+┃╠═🍁「 DOWNLOADER 」🍁
 ┃╠${prefix}ytmp3 [url|quality]
 ┃╠${prefix}ytmp4 [url|quality]
 ┃╠${prefix}getmusic [yt link]
@@ -3759,7 +3778,7 @@ case 'allmenu': {
 ┃╠${prefix}umma [query]
 ┃╠${prefix}joox [query]
 ┃╠${prefix}soundcloud [url]
-┃╠══✪「 SEARCHER 」 ☯︎
+┃╠══🔥「 SEARCHER 」 🔥
 ┃╠${prefix}play [query]
 ┃╠${prefix}song [query]
 ┃╠${prefix}yts [query]
@@ -3771,11 +3790,11 @@ case 'allmenu': {
 ┃╠${prefix}ytsearch [query]
 ┃╠${prefix}ringtone [query]
 ┃╠${prefix}webtoon [query]
-┃╠══✪「 RANDOM 」☯︎
+┃╠══🌿「 RANDOM 」🌿
 ┃╠${prefix}coffee
 ┃╠${prefix}animequote (indo)
 ┃╠${prefix}couplepp
-┃╠═✪「 RANDOM ANIME 」☯︎
+┃╠═🌿「 RANDOM ANIME 」🌿
 ┃╠${prefix}loli
 ┃╠${prefix}bully
 ┃╠${prefix}cuddle
@@ -4327,7 +4346,7 @@ await KingmdWH.send5ButImg(from, `` + '' + ' ', `
 ┃╠${prefix}zodiak (indo)
 ┃╠${prefix}shio (indo)
 ┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
+┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🌿Donate🌿","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
 case 'thanksto': case 'tqto': case 'tqtt':
 var unicorn = await getBuffer(picak+'Developer')
@@ -4335,7 +4354,7 @@ await KingmdWH.send5ButImg(from, `` + '' + ' ', `
 Thanks to Me ( NexusNw)
 Alien-Alfa (For helping me to deploy qr in replit and answered my every doubts regard this project)
 DGXeon ( 45% Credits goes to him ,in this script)
-And Again Me (King Nexus 🎉) 🔥 Who Helped Assemble This Sexy Script !!!`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
+And Again Me (King Nexus 🎉) 🔥 Who Helped Assemble This Sexy Script !!!`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🌿Donate🌿","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
             default:
                 if (budy.startsWith('=>')) {
