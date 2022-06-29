@@ -3418,23 +3418,23 @@ reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, 
                            	timestampe = speed();
 latensie = speed() - timestampe
  anu = `
-🌿 Hi 👋 ${pushname}      
-🌿ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ🌿             
+🍒 ʜɪ 😇 ${pushname}
+       
+            🍒 ɪᴍ 𝙼𝙸𝚉𝚃𝚈 🍒
 
-        *「 BOT INFO 」*
-🌿 SPEED : ${latensie.toFixed(4)} miliseconds
+            *「 BOT INFO 」*
 
-❤️‍🩹 RUNTIME : ${runtime(process.uptime())}
+🍒 ʙᴏᴛ ɴᴀᴍᴇ - 𝙼𝙸𝚉𝚃𝚈
 
-🎮 BOT NAME :🍒 MIZTY 🍒
+🍒 ᴄʀᴇᴀᴛᴏʀ ɴᴀᴍᴇ - ᴄʏʙᴇʀ_ᴅᴇᴠɪʟ
 
-😇 OWNER NAME : ${global.ownername}
+🍒 ᴏᴡɴᴇʀ ɴᴀᴍᴇ - ${global.ownername}
 
-🌿 OWNER NUMBER : ${global.owner}
+🍒 ᴏᴡɴᴇʀ ᴄᴏɴᴛᴀᴄᴛ - ${global.owner}
 
-🎮 PLATFORM : ${os.platform()}
+🍒 ᴘʟᴀᴛꜰᴏʀᴍ - ${os.platform()}
 
-😼 TOTAL USERS : ${Object.keys(global.db.data.users).length}
+🍒 ᴛᴏᴛᴀʟ ᴜꜱᴇʀꜱ - ${Object.keys(global.db.data.users).length}
 `
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -3445,7 +3445,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: '© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ ',
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: '🌿 YOUTUBE 🌿',
+                                    displayText: '🍒 YOUTUBE 🍒',
                                     url: `${myweb}`
                                 }
                             }, {
@@ -3455,17 +3455,17 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🌿 LIST MENU 🌿',
+                                    displayText: '🔰 LIST MENU 🔰',
                                     id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🎮 SYSTEM STATUS 🎮',
+                                    displayText: '〽️ SYSTEM STATUS 〽️',
                                     id: `${prefix}ping`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🌿 OWNER 🌿',
+                                    displayText: '🍒 OWNER 🍒',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3478,21 +3478,27 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                      case 'bot':{
                            	timestampe = speed();
 latensie = speed() - timestampe
- anu = ` 🍒 ᴍɪᴢᴛʏ 🍒
- 
- 🎲 𝐎𝐰𝐧𝐞𝐫 - 𝙲𝚈𝙱𝙴𝚁_𝙳𝙴𝚅𝙸𝙻
- 
-            *🍃 ᴀᴅᴍɪɴ ™🍃*
-            
-     🔥 𝚂𝙿𝙴𝙲𝙸𝙰𝙻 𝚃𝙷𝙰𝙽𝙺𝚂 𝙵𝙾𝚁 🔥
-🔰 ᴅɪɴᴀ
-🔰 𝙺𝙸𝙽𝙶 𝙱𝙾𝚃 𝙾𝚆𝙽𝙴𝚁
-🔰 𝚃𝙸𝙶𝙴𝚁 𝚃𝙴𝙲𝙷
-           
-            
-     *🔰 ꜰᴏʀ 24/7 ʜᴇʟᴘ ᴍꜱɢ ᴍᴇ 🔰*
-                     
-🍂 ᴡᴇ ᴀʀᴇ ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ 🍂`
+ anu = `〽️ ʜɪ ɪᴍ ᴏɴʟɪɴᴇ ɴᴏᴡ 〽️
+
+❄️ ᴏᴡɴᴇʀ - ᴄʏʙᴇʀ_ᴅᴇᴠɪʟ 
+
+❄️ ʙᴏᴛ ɴᴀᴍᴇ - 𝙼𝙸𝚉𝚃𝚈 
+
+             🍒 ꜱᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋꜱ ꜰᴏʀ 🍒
+
+🌿 - ᴛɪɢᴇʀ ᴛᴇᴄʜ 
+
+🌿 - ᴅɪɴᴀ 
+
+🌿- ᴋɪɴɢ ʙᴏᴛ ᴏᴡɴᴇʀ 
+
+🌿 - ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ
+
+
+       🍒 ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴇɴᴇʏ Qᴜᴇꜱᴛɪᴏɴ 🍒
+
+🔥 ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ - owner 🔥
+`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
@@ -3502,7 +3508,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: '© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ',
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: '🍁 YOUTUBE 🍁',
+                                    displayText: '🍒 YOUTUBE 🍒',
                                     url: `${myweb}`
                                 }
                             }, {
@@ -3517,12 +3523,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🍒 SYSTEM STATUS 🍒',
+                                    displayText: '〽️ SYSTEM STATUS 〽️',
                                     id: `${prefix}ping`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🌿 OWNER 🌿',
+                                    displayText: '🍒 OWNER 🍒',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3535,14 +3541,17 @@ break
             case 'list': case 'menu': case 'panel': case 'help' :{
             	timestampe = speed();
 latensie = speed() - timestampe
-                anu = `🍁 ʜɪ ɪ ᴀᴍ ᴏɴʟɪɴᴇ ɴᴏᴡ 🍁
-🍊 ᴏᴡɴᴇʀ - ᴄʏʙᴇʀ_ᴅᴇᴠɪʟ
+                anu = `  
+       🍒 ᴛʜɪꜱ ɪꜱ *ᴍɪᴢᴛʏ* ᴄᴏᴍᴍᴀɴᴅ ʟɪꜱᴛ 🍒
 
-🍇 ᴏᴡɴᴇʀ ᴛᴇᴀᴍ - ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ
+🍒 ʙᴏᴛ ᴏᴡɴᴇʀ - ᴄʏʙᴇʀ_ᴅᴇᴠɪʟ
 
-🌿 ʜᴀᴄᴋᴇʀ ʏᴏᴜʀᴇ ʟɪꜰᴇ 🌿
+〽️ ᴘᴏᴡᴇʀᴅ ʙʏ - ʜᴇʀᴏᴋᴜ
 
-            🍒 ᴍɪᴢᴛʏ 🍒
+🍒 ʙᴏᴛ ɴᴀᴍᴇ - 𝙼𝙸𝚉𝚃𝚈
+
+〽️ ʜᴇʟᴘ ᴀɴ ꜱᴜᴘᴘᴏʀᴛ ᴜꜱ 〽️
+            
 `
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
@@ -3558,17 +3567,17 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                             }, {
                             	urlButton: {
-                                displayText: '🍒 GITHUB 🍒',
+                                displayText: '〽️ GITHUB 〽️',
                                     url: `${sc}`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🍒 ALL MENU 🍒',
+                                    displayText: '🔥 ALL MENU 🔥',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🍒 LIST MENU 🍒',
+                                    displayText: '❄️ LIST MENU ❄️',
                                     id: `${prefix}command`
                                 }
                                 }, {
@@ -3592,10 +3601,10 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     footerText: `${global.footer}`,
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": "🍒 Main Features 🍒",
+								"title": "🍒 𝙼𝙰𝙸𝙽 𝙵𝙴𝚃𝚄𝚁𝙴𝚂 🍒",
 								"rows": [
 									{
-										"title": "🍒 Main Menu 🍒",
+										"title": "〽️ 𝙼𝙰𝙸𝙽 𝙼𝙴𝙽𝚄 〽️",
 										"description": "Displays The List Of Main Features",
 										"rowId": `${prefix}mainmenu`
 									}
@@ -3605,7 +3614,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "🍒 Bot Features 🍒",
 								"rows": [
 									{
-										"title": "🍒 All Menu 🍒",
+										"title": "〽️ All Menu 〽️",
 										"description": "Displays The List Of All The Features!",
 										"rowId": `${prefix}allmenu`
 									},
@@ -3615,7 +3624,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										"rowId": `${prefix}ownermenu`
 										},
 									{
-										"title": "🍒 Group Menu 🍒",
+										"title": "〽️ Group Menu 〽️",
 										"description": "Displays The List Of Main Features",
 										"rowId": `${prefix}groupmenu`
 										},
@@ -3625,7 +3634,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										"rowId": `${prefix}rpgmenu`
 									},
 									{
-										"title": "🍒 Download Menu 🍒",
+										"title": "〽️ Download Menu 〽️",
 										"description": "Displays The List Of Download Features",
 										"rowId": `${prefix}downloadmenu`
 									},
@@ -3635,7 +3644,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										"rowId": `${prefix}searchmenu`
 									},
 									{
-											"title": "🍒 Random Menu 🍒",
+											"title": "〽️ Random Menu 〽️",
 										"description": "Displays The List Of Random Features",
 										"rowId": `${prefix}randommenu`
 										},
@@ -3645,7 +3654,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										"rowId": `${prefix}randomanimemenu`
 										},
 										{
-											"title": "🍒 Fun Menu 🍒",
+											"title": "〽️ Fun Menu 〽️",
 										"description": "Displays The List Of Fun Features",
 										"rowId": `${prefix}funmenu`
 										},
@@ -3655,7 +3664,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										"rowId": `${prefix}convertmenu`
 										},
 										{
-											"title": "🍒 Database Menu 🍒",
+											"title": "〽️ Database Menu 〽️",
 										"description": "Displays The List Of Database Features",
 										"rowId": `${prefix}databasemenu`
 										},
@@ -3665,7 +3674,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										"rowId": `${prefix}voicechangermenu`
 										},
 										{
-											"title": "🍒 TXT-to-IMG Menu 🍒",
+											"title": "〽️ TXT-to-IMG Menu 〽️",
 										"description": "Displays The List Of Textpro Features",
 										"rowId": `${prefix}textpromenu`
 										},
@@ -3675,7 +3684,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										"rowId": `${prefix}islamicmenu`
 										},
 										{
-											"title": "🍒 Horoscope Menu 🍒",
+											"title": "〽️ Horoscope Menu 〽️",
 										"description": "Displays The List Of Horoscope Features",
 										"rowId": `${prefix}horoscopemenu`
 										}
