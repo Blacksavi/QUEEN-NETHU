@@ -2089,23 +2089,23 @@ break
                     caption: `
 🌿 Title : ${anu.title}
 
-❤️‍🩹 Ext : Search
+🍒 Ext : Search
 
 🌿 ID : ${anu.videoId}
 
-❤️‍🩹 Duration : ${anu.timestamp}
+🍒 Duration : ${anu.timestamp}
 
 🌿 Viewes : ${anu.views}
 
-❤️‍🩹 Uploaded On : ${anu.ago}
+🍒 Uploaded On : ${anu.ago}
 
 🌿 Author : ${anu.author.name}
 
-❤️‍🩹 Channel : ${anu.author.url}
+🍒 Channel : ${anu.author.url}
 
 🌿 Description : ${anu.description}
 
-❤️‍🩹 Url : ${anu.url}`,
+🍒 Url : ${anu.url}`,
                     footer: KingmdWH.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -2119,34 +2119,34 @@ break
                 let search = await yts(text)
                 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
                 let buttons = [
-                    {buttonId: `hsong ${anu.url}`, buttonText: {displayText: '🌿 HIGH QUALITY 🌿'}, type: 1},
-                    {buttonId: `msong  ${anu.url}`, buttonText: {displayText: '❤️‍🩹 MEDIUM QUALITY ❤️‍🩹'}, type: 1}
+                    {buttonId: `hsong ${anu.url}`, buttonText: {displayText: '🔥 HIGH QUALITY 🔥'}, type: 1},
+                    {buttonId: `msong  ${anu.url}`, buttonText: {displayText: '❄️ MEDIUM QUALITY ❄️'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
-                    caption: `🌿𝚂ᴸ 𝙿ᴿᴼᴳᴿᴬᴹᴹᴱᴿˢ 𝚆𝙰 𝙱𝙾𝚃 🌿
+                    caption: `🍒 ᴍɪᴢᴛʏ 🍒 
 
-    *❤️‍🩹🌿 𝚂ᴼᴺᴳ 𝙳ᴼᵂᴺᴸᴼᴬᴰᴱᴿ 🌿❤️‍🩹*
+    *🌿𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁🌿*
    
-🌿 Title : ${anu.title}
+🍒 Title : ${anu.title}
 
-❤️‍🩹 Description : ${anu.description}
+🌿 Description : ${anu.description}
 
-🌿 Ext : Search
+🍒 Ext : Search
 
-❤️‍🩹 ID : ${anu.videoId}
+🌿 ID : ${anu.videoId}
 
-🌿 Duration : ${anu.timestamp}
+🍒 Duration : ${anu.timestamp}
 
-❤️‍🩹 Viewes : ${anu.views}
+🌿 Viewes : ${anu.views}
 
-🌿 Uploaded On : ${anu.ago}
+🍒 Uploaded On : ${anu.ago}
 
-❤️‍🩹 Author : ${anu.author.name}
+🌿 Author : ${anu.author.name}
 
-🌿 Channel : ${anu.author.url}
+🍒 Channel : ${anu.author.url}
 
-❤️‍🩹 Url : ${anu.url}`,
+🌿 Url : ${anu.url}`,
                     footer: '© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ',
                     buttons: buttons,
                     headerType: 4
@@ -2160,33 +2160,33 @@ break
                 let search = await yts(text)
                 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
                 let buttons = [
-                    {buttonId: `mvideo  ${anu.url}`, buttonText: {displayText: '🔥 320P QUALITY 🔥'}, type: 1},
-                    {buttonId: `hvideo  ${anu.url}`, buttonText: {displayText: '🎲 480P QUALITY 🎲️'}, type: 1}
+                    {buttonId: `mvideo  ${anu.url}`, buttonText: {displayText: '❄️ 360P QUALITY ❄️'}, type: 1},
+                    {buttonId: `hvideo  ${anu.url}`, buttonText: {displayText: '🔥 480P QUALITY 🔥'}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
-                    caption: ` 🌿𝚂ᴸ 𝙿ᴿᴼᴳᴿᴬᴹᴹᴱᴿˢ 𝚆𝙰 𝙱𝙾𝚃🌿
-         *❤️‍🩹🌿 𝚅ᴵᴰᴱᴼ 𝙳ᴼᵂᴺᴸᴼᴬᴰᴱᴿ 🌿❤️‍🩹*
+                    caption: ` 🍒 𝙼𝙸𝚉𝚃𝚈 🍒
+         *🌿 𝚅𝙸𝙳𝙴𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁 🌿*
           
 🌿 Title : ${anu.title}
 
-❤️‍🩹 Ext : Search
+🍒 Ext : Search
 
 🌿 ID : ${anu.videoId}
 
-❤️‍🩹 Duration : ${anu.timestamp}
+🍒 Duration : ${anu.timestamp}
 
 🌿 Viewes : ${anu.views}
 
-❤️‍🩹 Uploaded On : ${anu.ago}
+🍒 Uploaded On : ${anu.ago}
 
 🌿 Author : ${anu.author.name}
 
-❤️‍🩹 Channel : ${anu.author.url}
+🍒 Channel : ${anu.author.url}
 
 🌿 Description : ${anu.description}
 
-❤️‍🩹 Url : ${anu.url}`,
+🍒 Url : ${anu.url}`,
                     footer: '© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ',
                     buttons: buttons,
                     headerType: 4
