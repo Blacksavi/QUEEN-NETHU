@@ -1456,7 +1456,7 @@ let teks = `╚»˙·٠•●🌿 Tag All 🌿●•٠·˙«╝
  
  ➲ *Message : ${q ? q : 'no message'}*\n\n`
                 for (let mem of participants) {
-                teks += `🔥 @${mem.id.split('@')[0]}\n`
+                teks += `🍒 @${mem.id.split('@')[0]}\n`
                 }
                 KingmdWH.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: m })
                 }
@@ -2002,7 +2002,7 @@ break
                 await fs.unlinkSync(media)
             }
             break
-            case 'imagenobgxxx': case 'removebgxxx': case 'remove-bgxxx': {
+            case 'imagenobgxxx': case 'removebgxxx': case 'remove-bg': {
 	    if (!quoted) return replay(`Send/Reply Image With Caption ${prefix + command}`)
 	    if (!/image/.test(mime)) return replay(`Send/Reply Image With Caption ${prefix + command}`)
 	    if (/webp/.test(mime)) return replay(`Send/Reply Image With Caption ${prefix + command}`)
@@ -2053,7 +2053,7 @@ break
                 })
                 }
                 break
-        case 'gimage': case 'googleimage': {
+        case 'img': case 'googleimage': {
         if (!text) return reply(`Example : ${prefix + command} gojo`)
         let gis = require('g-i-s')
         gis(text, async (error, result) => {
@@ -2147,7 +2147,7 @@ break
 🌿 Channel : ${anu.author.url}
 
 ❤️‍🩹 Url : ${anu.url}`,
-                    footer: '</> ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝚂ᴸ 𝙿ᴿᴼᴳᴿᴬᴹᴹᴱᴿˢ </>️ ▷',
+                    footer: '© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -2187,7 +2187,7 @@ break
 🌿 Description : ${anu.description}
 
 ❤️‍🩹 Url : ${anu.url}`,
-                    footer: '</> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ </>️',
+                    footer: '© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -2242,7 +2242,7 @@ break
                 KingmdWH.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
             }
             break
-            case 'ytmp4': case 'getvideo': case 'ytvideo': {
+            case 'yt': case 'getvideo': case 'ytvideo': {
                 let { ytv } = require('./lib/y2mate')
                 if (!text) return reply(`Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 360p`)
                 let quality = args[1] ? args[1] : '360p'
@@ -2809,7 +2809,7 @@ case 'webtonsearch': case 'webtoon':
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
                 let buttons = [
-                    {buttonId: `tiktokwm ${text}`, buttonText: {displayText: '🥬With Watermark🥬'}, type: 1},
+                    {buttonId: `tiktokwm ${text}`, buttonText: {displayText: '🌿With Watermark🌿'}, type: 1},
                     {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '🎵Audio🎵'}, type: 1}
                 ]
                 let buttonMessage = {
@@ -2822,12 +2822,12 @@ case 'webtonsearch': case 'webtoon':
                 KingmdWH.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
-            case 'tiktokwmx': case 'tiktokwatermarkx': {
+            case 'tiktokdown': case 'tiktokwatermarkx': {
                 if (!text) return reply(`Enter Query Link!`)
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
                 let buttons = [
-                    {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '🥬No Watermark🥬'}, type: 1},
+                    {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '🌿No Watermark🌿'}, type: 1},
                     {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '🎵Audio🎵'}, type: 1}
                 ]
                 let buttonMessage = {
@@ -2840,13 +2840,13 @@ case 'webtonsearch': case 'webtoon':
                 KingmdWH.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
-            case 'tiktokmp3x': case 'tiktokaudiox': {
+            case 'tiktok': case 'tiktokaudiox': {
                 if (!text) return reply(`Enter Query Link!`)
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/musically', { url: text }, 'apikey'))
                 let buttons = [
-                    {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '🥬No Watermark🥬'}, type: 1},
-                    {buttonId: `tiktokwm ${text}`, buttonText: {displayText: '🥬With Watermark🥬'}, type: 1}
+                    {buttonId: `tiktoknowm ${text}`, buttonText: {displayText: '🌿No Watermark🌿'}, type: 1},
+                    {buttonId: `tiktokwm ${text}`, buttonText: {displayText: '🌿With Watermark🌿'}, type: 1}
                 ]
                 let buttonMessage = {
                     text: `Download From ${text}`,
@@ -2858,7 +2858,7 @@ case 'webtonsearch': case 'webtoon':
                 KingmdWH.sendMessage(m.chat, { audio: { url: anu.result.audio }, mimetype: 'audio/mpeg'}, { quoted: msg })
             }
             break
-	        case 'instagramx': case 'igx': case 'igdlx': {
+	        case 'instagram': case 'igx': case 'igdlx': {
                 if (!text) return reply(`No Query Url!`)
                 reply(mess.wait)
                 if (/(?:\/p\/|\/reel\/|\/tv\/)([^\s&]+)/.test(isUrl(text)[0])) {
@@ -2912,7 +2912,7 @@ case 'webtonsearch': case 'webtoon':
                 KingmdWH.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
-            case 'twittermp3x': case 'twitteraudiox': {
+            case 'twitter': case 'twitteraudiox': {
                 if (!text) return reply(`Enter Query Link!`)
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/api/downloader/twitter', { url: text }, 'apikey'))
@@ -3409,7 +3409,7 @@ reply("Success Changing Menu To "+q)
 break
                     case 'bug': case 'report': {
                     	if(!text) return reply(`Enter The Bug\n\nExample: ${command} Menu Error`)
-                    	KingmdWH.sendMessage(`918129624395@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
+                    	KingmdWH.sendMessage(`94716388240@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
 Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
@@ -3441,8 +3441,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./KINGMedia/logo.jpg')},
-                            hydratedFooterText: '</> 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝚂ˡ 𝙿ʳᵒᵍʳᵃᵐᵐᵉʳˢ </>️ ',
+                            jpegThumbnail: fs.readFileSync('./KINGMedia/logo.jpeg')},
+                            hydratedFooterText: '© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ ',
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: '🌿 YOUTUBE 🌿',
@@ -3499,7 +3499,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./KINGMedia/logo.jpeg')},
-                            hydratedFooterText: '</> ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝚂ᴸ 𝙿ᴿᴼᴳᴿᴬᴹᴹᴱᴿˢ </>️ ▷',
+                            hydratedFooterText: '© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ',
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: '🍁 YOUTUBE 🍁',
@@ -3592,90 +3592,90 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     footerText: `${global.footer}`,
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": "Main Features",
+								"title": "🍒 Main Features 🍒",
 								"rows": [
 									{
-										"title": "Main Menu",
+										"title": "🍒 Main Menu 🍒",
 										"description": "Displays The List Of Main Features",
 										"rowId": `${prefix}mainmenu`
 									}
 								]
 							},
 							{
-								"title": "Bot Features",
+								"title": "🍒 Bot Features 🍒",
 								"rows": [
 									{
-										"title": "All Menu",
+										"title": "🍒 All Menu 🍒",
 										"description": "Displays The List Of All The Features!",
 										"rowId": `${prefix}allmenu`
 									},
 									{
-										"title": "Owner Menu",
+										"title": "🍒 Owner Menu 🍒",
 										"description": "Displays The List Of Owner Features",
 										"rowId": `${prefix}ownermenu`
 										},
 									{
-										"title": "Group Menu",
+										"title": "🍒 Group Menu 🍒",
 										"description": "Displays The List Of Main Features",
 										"rowId": `${prefix}groupmenu`
 										},
 									{
-										"title": "Rpg Menu",
+										"title": "🍒 Rpg Menu 🍒",
 										"description": "Displays The List Of Rpg Features",
 										"rowId": `${prefix}rpgmenu`
 									},
 									{
-										"title": "Download Menu",
+										"title": "🍒 Download Menu 🍒",
 										"description": "Displays The List Of Download Features",
 										"rowId": `${prefix}downloadmenu`
 									},
 									{
-										"title": "Search Menu",
+										"title": "🍒 Search Menu 🍒",
 										"description": "Displays The List Of Searching Features",
 										"rowId": `${prefix}searchmenu`
 									},
 									{
-											"title": "Random Menu",
+											"title": "🍒 Random Menu 🍒",
 										"description": "Displays The List Of Random Features",
 										"rowId": `${prefix}randommenu`
 										},
 										{
-											"title": "Random Anime Menu",
+											"title": "🍒 Random Anime Menu 🍒",
 										"description": "Displays The List Of Random Anime Features",
 										"rowId": `${prefix}randomanimemenu`
 										},
 										{
-											"title": "Fun Menu",
+											"title": "🍒 Fun Menu 🍒",
 										"description": "Displays The List Of Fun Features",
 										"rowId": `${prefix}funmenu`
 										},
 										{
-											"title": "Convert Menu",
+											"title": "🍒 Convert Menu 🍒",
 										"description": "Displays The List Of Convert Features",
 										"rowId": `${prefix}convertmenu`
 										},
 										{
-											"title": "Database Menu",
+											"title": "🍒 Database Menu 🍒",
 										"description": "Displays The List Of Database Features",
 										"rowId": `${prefix}databasemenu`
 										},
 										{
-											"title": "Voice Changer Menu",
+											"title": "🍒 Voice Changer Menu 🍒",
 										"description": "Displays The List Of Voice Changing Features",
 										"rowId": `${prefix}voicechangermenu`
 										},
 										{
-											"title": "TXT-to-IMG Menu",
+											"title": "🍒 TXT-to-IMG Menu 🍒",
 										"description": "Displays The List Of Textpro Features",
 										"rowId": `${prefix}textpromenu`
 										},
 										{
-											"title": "Islamic Menu",
+											"title": "🍒 Islamic Menu 🍒",
 										"description": "Displays The List Of Islamic Features",
 										"rowId": `${prefix}islamicmenu`
 										},
 										{
-											"title": "Horoscope Menu",
+											"title": "🍒 Horoscope Menu 🍒",
 										"description": "Displays The List Of Horoscope Features",
 										"rowId": `${prefix}horoscopemenu`
 										}
@@ -3685,7 +3685,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Chat With Fellow Users",
 								"rows": [
 									{
-										"title": "Anonymous Chat Menu",
+										"title": "🍒 Anonymous Chat Menu 🍒",
 										"description": "Displays The List Of Anonymous Chat Features",
 										"rowId": `${prefix}anonymouschatmenu`
 									}
@@ -3709,11 +3709,11 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
     case 'donasi': case 'donate': case 'sewabot': case 'sewa': {
-                KingmdWH.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/TthNM8P/null-20220626-WA0109.jpg' }, caption: `*Hi Bro ${m.pushName}*\nDonation section is currently down🥲 , I know you are happy but me 🥲💔\n` }, { quoted: m })
+                KingmdWH.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/TthNM8P/null-20220626-WA0109.jpg' }, caption: `*Hi Bro ${m.pushName}*\ *SUBSCRIBE OUR YT CHANNEL* https://www.youtube.com/channel/UChMPU0p6C_turIlKkH0Nvig\n` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
-                reply(`GitHub : https://github.com/nexusNw/Gojo-Satoru\n Dont Forget To Give Star\n\nYouTube : ${myweb}\nDont Forget To Watch Tutorial`)
+                reply(`GitHub : https://github.com/cyberdev001\n Dont Forget To Give Star\n\nYouTube : ${myweb}\n`)
             }
             break
 case 'allmenu': {
@@ -3944,14 +3944,14 @@ case 'allmenu': {
 ┃╠${prefix}masasubur (indo)
 ┃╠${prefix}zodiak (indo)
 ┃╠${prefix}shio (indo)
-┃╚═══════✍︎𝚂𝙻 𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙼𝙴𝚁𝚂
-┗━「🍒 *Created By ${ownername}*  🍒」━⭓`
+┃╚═══════✍︎© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ
+┗━「🍒 *Created By ${ownername}*  」 🍒`
     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./GojoMedia/logo.jpeg')},
+                            jpegThumbnail: fs.readFileSync('./GojoMedia/logo.jpg')},
                             hydratedFooterText: `${pushname}`,
                             hydratedButtons: [{
                                 urlButton: {
