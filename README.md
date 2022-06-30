@@ -1,11 +1,11 @@
-<div align="center"><h1>🌿 🔥🔥🔥 𝚂𝙻 𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙼𝙴𝚁𝚂 𝚆𝙰 𝙱𝙾𝚃 🔥🔥🔥 🌿</h1></div>
+<div align="center"><h1>🍒 𝙼𝙸𝚉𝚃𝚈 🍒</h1></div>
 	
 
 <div align="center">
   <img src="https://i.ibb.co/d6VgT9d/289833594-443514950604305-1746899019132578151-n.jpg" width="300" height="300">
 	<div align="center">
 
-  <h1>🌿 🔥𝙱𝚈-𝙲𝚈𝙱𝙴𝚁_𝙳𝙴𝚅𝙸𝙻🔥 🌿</h1></div></div></div>
+  <h1> WHATSAPP MD BOT 🔥𝙱𝚈 - 𝙲𝚈𝙱𝙴𝚁_𝙳𝙴𝚅𝙸𝙻 🔥</h1></div></div></div>
 
 
 ### QR CODE
