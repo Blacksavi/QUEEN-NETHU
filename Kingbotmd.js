@@ -1165,7 +1165,7 @@ Please @${m.mentionedJid[0].split`@`[0]} To Type Accept/Reject`
             let orang = member[Math.floor(Math.random() * member.length)]
             let jodoh = member[Math.floor(Math.random() * member.length)]
             let jawab = `@${orang.split('@')[0]} ❤️ @${jodoh.split('@')[0]}
-Cieeee, What's Going On❤️💖👀`
+Cieeee, What's Going On❤️👀`
             let menst = [orang, jodoh]
             let buttons = [
                         { buttonId: '❤️', buttonText: { displayText: '❤️' }, type: 1 }
@@ -2002,7 +2002,7 @@ break
                 await fs.unlinkSync(media)
             }
             break
-            case 'imagenobgxxx': case 'removebgxxx': case 'remove-bg': {
+            case 'imagenobgxxx': case 'removebg': case 'remove-bg': {
 	    if (!quoted) return replay(`Send/Reply Image With Caption ${prefix + command}`)
 	    if (!/image/.test(mime)) return replay(`Send/Reply Image With Caption ${prefix + command}`)
 	    if (/webp/.test(mime)) return replay(`Send/Reply Image With Caption ${prefix + command}`)
@@ -2087,6 +2087,8 @@ break
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
                     caption: `
+		    🍒 ᴍɪᴢᴛʏ 🍒 
+		    
 🌿 Title : ${anu.title}
 
 🍒 Ext : Search
@@ -2306,10 +2308,10 @@ case 'webtonsearch': case 'webtoon':
                 nexusnw.Drakor(`${text}`).then(async data => {
                     let txt = `*-----「 DRAKOR-SEARCH 」-----*\n\n`
                     for (let i of data) {
-                        txt += `*📫 Title :* ${i.judul}\n`
+                        txt += `*🍒 Title :* ${i.judul}\n`
                         txt += `*📆 Years :* ${i.years}\n`
                         txt += `*🎥 Genre :* ${i.genre}\n`
-                        txt += `*📚 Url :* ${i.url}\n-----------------------------------------------------\n`
+                        txt += `*🔗 Url :* ${i.url}\n-----------------------------------------------------\n`
                     }
                     await sendFileFromUrl(from,data[0].thumbnail,txt,m)
                 })
@@ -2317,14 +2319,14 @@ case 'webtonsearch': case 'webtoon':
                     reply(mess.error)
                 })
             break
-            case 'animexxx':{
+            case 'anime':{
                 if (!text) return reply(`What Anime Are You Looking For??`)
                 await reply(mess.wait)
                 nexusnw.Anime(q).then(async data => {
                     let txt = `*-------「 ANIME-SEARCH 」-------*\n\n`
                     for (let i of data) {
-                        txt += `*📫 Title :* ${i.judul}\n`
-                        txt += `*📚 Url :* ${i.link}\n-----------------------------------------------------\n`
+                        txt += `*🍒 Title :* ${i.judul}\n`
+                        txt += `*🔗 Url :* ${i.link}\n-----------------------------------------------------\n`
                     }
                     let gam = await getBuffer(data[0].thumbnail.replace('https://www.anime-planet.com',''))
                     var but = [
@@ -2804,7 +2806,7 @@ case 'webtonsearch': case 'webtoon':
                 }
             }
             break
-	        case 'tiktokd': case 'tiktoknowmx': {
+	        case 'tiktok': case 'tiktoknowmx': {
                 if (!text) return reply(`Enter Query Link!`)
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
@@ -2840,7 +2842,7 @@ case 'webtonsearch': case 'webtoon':
                 KingmdWH.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
-            case 'tiktok': case 'tiktokaudiox': {
+            case 'tiktokd': case 'tiktokaudiox': {
                 if (!text) return reply(`Enter Query Link!`)
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/musically', { url: text }, 'apikey'))
@@ -2956,6 +2958,8 @@ case 'webtonsearch': case 'webtoon':
 		    let buttonMessage = {
 		        image: { url: anu.author.profilePic },
 			caption: `
+			🍒 𝙼𝙸𝚉𝚃𝚈 🍒
+			
 🌿 Title : ${anu.title}
 
 ❤️‍🩹 Author : ${anu.author.name}
@@ -2964,7 +2968,7 @@ case 'webtonsearch': case 'webtoon':
 
 ❤️‍🩹 Caption : ${anu.caption}
 
-🌿 Url : ${anu.media[0]}
+🔗 Url : ${anu.media[0]}
 To Download Media, Please Click One Of The Buttons Below Or Enter The ytmp3/ytmp4 Command With The Url Above
 `,
 			footer: KingmdWH.user.name,
@@ -3495,7 +3499,7 @@ latensie = speed() - timestampe
 🌿 - ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ
 
 
-     🍒 ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴇɴᴇʏ Qᴜᴇꜱᴛɪᴏɴ 🍒
+   🍒 ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴇɴᴇʏ Qᴜᴇꜱᴛɪᴏɴ 🍒
 
 🔥 ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ - owner 🔥
 `
@@ -3718,7 +3722,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
     case 'donasi': case 'donate': case 'sewabot': case 'sewa': {
-                KingmdWH.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/TthNM8P/null-20220626-WA0109.jpg' }, caption: `*Hi Bro ${m.pushName}*\ *SUBSCRIBE OUR YT CHANNEL* https://www.youtube.com/channel/UChMPU0p6C_turIlKkH0Nvig\n` }, { quoted: m })
+                KingmdWH.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/d6VgT9d/289833594-443514950604305-1746899019132578151-n.jpg' }, caption: `*Hi Bro ${m.pushName}*\ *SUBSCRIBE OUR YT CHANNEL* https://www.youtube.com/channel/UChMPU0p6C_turIlKkH0Nvig\n` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
@@ -3742,7 +3746,7 @@ case 'allmenu': {
 ┃╠ ${prefix}listgc
 ┃╠ ${prefix}donate
 ┃╠ ${prefix}report [bug]
-┃╠══❤️‍🩹「 OWNER 」 ❤️‍🩹
+┃╠══🍒「 OWNER 」 🍒
 ┃╠ ${prefix}chat [option]
 ┃╠ ${prefix}join [link]
 ┃╠ ${prefix}leave
