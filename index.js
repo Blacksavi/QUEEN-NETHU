@@ -97,15 +97,15 @@ async function startKingmdWH() {
        }
        let wm_fatih = { url : ppgc }
        if (pea[0].announce == true) {
-       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nThe Group Has Been Closed By Admin, Now Only Admin Can Send Messages !`, `</> ᴘᴏᴡᴇʀᴅ ʙʏ ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ </>️`, wm_fatih, [])
+       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nThe Group Has Been Closed By Admin, Now Only Admin Can Send Messages !`, `© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ`, wm_fatih, [])
        } else if(pea[0].announce == false) {
-       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nThe Group Has Been Opened By Admin, Now Participants Can Send Messages !`, `</> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ </>️ `, wm_fatih, [])
+       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nThe Group Has Been Opened By Admin, Now Participants Can Send Messages !`, `© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ `, wm_fatih, [])
        } else if (pea[0].restrict == true) {
-       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Info Has Been Restricted, Now Only Admin Can Edit Group Info !`, `</> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ </>️`, wm_fatih, [])
+       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Info Has Been Restricted, Now Only Admin Can Edit Group Info !`, `© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ`, wm_fatih, [])
        } else if (pea[0].restrict == false) {
-       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Info Has Been Opened, Now Participants Can Edit Group Info !`, `</> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ </>️`, wm_fatih, [])
+       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Info Has Been Opened, Now Participants Can Edit Group Info !`, `© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ`, wm_fatih, [])
        } else {
-       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Subject Has Been Changed To *${pea[0].subject}*`, `</> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ </>️`, wm_fatih, [])
+       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Subject Has Been Changed To *${pea[0].subject}*`, `© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ`, wm_fatih, [])
      }
     })
 
