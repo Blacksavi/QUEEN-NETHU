@@ -2,7 +2,7 @@
 	
 
 <div align="center">
-  <img src="https://i.ibb.co/D5VNX5G/IMG-20220626-WA0081.jpg" width="300" height="300">
+  <img src="https://i.ibb.co/d6VgT9d/289833594-443514950604305-1746899019132578151-n.jpg" width="300" height="300">
 	<div align="center">
 
   <h1>🌿 🔥𝙱𝚈-𝙲𝚈𝙱𝙴𝚁_𝙳𝙴𝚅𝙸𝙻🔥 🌿</h1></div></div></div>
