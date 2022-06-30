@@ -20,7 +20,7 @@
 
 > IF Heroku Deploy seems Error, Fork This Repo And Try Deploy Again
 
-> If The Api Of This Bot Run Empty You Can Change it To Your Own Api By Changing [Here](https://github.com/KING-BOT-OFFICIAL/KING-BOT-MD/blob/master/settings.js#L18) And Register [here](https://zenzapis.xyz/) to get apikey
+> If The Api Of This Bot Run Empty You Can Change it To Your Own Api By Changing [Here]https://github.com/cyberdev001/SL-PROGRAMMERS-MD/blob/master/settings.js#L18) And Register [here](https://zenzapis.xyz/) to get apikey
 
 
 </br>
@@ -43,7 +43,7 @@ Add FFmpeg to PATH environment variable
 <!-- Start via Heroku -->
 <b><details><summary>Start via Heroku</summary></b>
 
-* Scan QR In Your Whatsapp From [Here](https://replit.com/@KING-BOT-OFFICIAL/KING-BOT-MD?v-1?outputonly=1&lite=1)
+* Scan QR In Your Whatsapp From [Here](https://replit.com/@MenakaNilupul/SL-PROGRAMMERS?v=1)
 * Fork This Repo By Clicking [Here](https://github.com/cyberdev001/SL-PROGRAMMERS-MD)
 * then Deploy The Bot From [Here](https://heroku.com/deploy)
 * Wait 5-10 Min To Deploy 
