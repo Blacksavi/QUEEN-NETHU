@@ -16,7 +16,7 @@
 </div>
 
 
-> [Automated Multi Device whatsapp bot created](https://github.com/KING-BOT-OFFICIAL/KING-BOT-MD) by [ШHłТΞ HΛϾКΞЯS](https://github.com/KING-BOT-OFFICIAL)
+> [Automated Multi Device whatsapp bot created](https://github.com/cyberdev001/SL-PROGRAMMERS-MD) by [CYBER_DEVIL](https://github.com/cyberdev001)
 
 > IF Heroku Deploy seems Error, Fork This Repo And Try Deploy Again
 
@@ -44,7 +44,7 @@ Add FFmpeg to PATH environment variable
 <b><details><summary>Start via Heroku</summary></b>
 
 * Scan QR In Your Whatsapp From [Here](https://replit.com/@KING-BOT-OFFICIAL/KING-BOT-MD?v-1?outputonly=1&lite=1)
-* Fork This Repo By Clicking [Here](https://github.com/KING-BOT-OFFICIAL/KING-BOT-MD/fork)
+* Fork This Repo By Clicking [Here](https://github.com/cyberdev001/SL-PROGRAMMERS-MD)
 * then Deploy The Bot From [Here](https://heroku.com/deploy)
 * Wait 5-10 Min To Deploy 
 * After Deploying On The Worker And Check The Logs
@@ -66,7 +66,7 @@ Add FFmpeg to PATH environment variable
 > pkg install ffmpeg -y 
 > pkg install wget
 > pkg install imagemagick -y
-> git clone https://github.com/KING-BOT-OFFICIAL/KING-BOT-MD
+> git clone https://github.com/cyberdev001/SL-PROGRAMMERS-MD
 > cd Gojo-Satoru
 > npm install
 ```
