@@ -200,11 +200,11 @@ module.exports = KingmdWH = async (KingmdWH, m, chatUpdate, store) => {
 	
 	//group target \\
 const reply = (teks) => {
-            KingmdWH.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Gojo-Satoru`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/logo.jpeg`),"sourceUrl": "https://telegra.ph/file/8bbe8a7de5c351dfcb077.jpg"}}}, { quoted: m})
+            KingmdWH.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `🍒 𝙼𝙸𝚉𝚃𝚈 🍒`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/logo.jpeg`),"sourceUrl": "https://i.ibb.co/jRh3Qrr/Bot.jpg"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            KingmdWH.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Gojo-Satoru`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/logo.jpeg`),"sourceUrl": "https://telegra.ph/file/8bbe8a7de5c351dfcb077.jpg"}}}, { quoted: m})
+            KingmdWH.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `🍒 𝙼𝙸𝚉𝚃𝚈 🍒`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/logo.jpeg`),"sourceUrl": "https://i.ibb.co/jRh3Qrr/Bot.jpg"}}}, { quoted: m})
         }
 	
         //Public & Self\\
