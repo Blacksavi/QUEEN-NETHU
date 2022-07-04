@@ -97,15 +97,15 @@ async function startKingmdWH() {
        }
        let wm_fatih = { url : ppgc }
        if (pea[0].announce == true) {
-       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nThe Group Has Been Closed By Admin, Now Only Admin Can Send Messages !`, `© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ`, wm_fatih, [])
+       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nThe Group Has Been Closed By Admin, Now Only Admin Can Send Messages !`, `© 💖𝙌𝙐𝙀𝙀𝙉 𝙉𝙀𝙏𝙃𝙐💖`, wm_fatih, [])
        } else if(pea[0].announce == false) {
-       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nThe Group Has Been Opened By Admin, Now Participants Can Send Messages !`, `© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ `, wm_fatih, [])
+       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nThe Group Has Been Opened By Admin, Now Participants Can Send Messages !`, `💖𝙌𝙐𝙀𝙀𝙉 𝙉𝙀𝙏𝙃𝙐💖`, wm_fatih, [])
        } else if (pea[0].restrict == true) {
-       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Info Has Been Restricted, Now Only Admin Can Edit Group Info !`, `© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ`, wm_fatih, [])
+       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Info Has Been Restricted, Now Only Admin Can Edit Group Info !`, `💖𝙌𝙐𝙀𝙀𝙉 𝙉𝙀𝙏𝙃𝙐💖`, wm_fatih, [])
        } else if (pea[0].restrict == false) {
-       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Info Has Been Opened, Now Participants Can Edit Group Info !`, `© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ`, wm_fatih, [])
+       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Info Has Been Opened, Now Participants Can Edit Group Info !`, `💖𝙌𝙐𝙀𝙀𝙉 𝙉𝙀𝙏𝙃𝙐💖`, wm_fatih, [])
        } else {
-       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Subject Has Been Changed To *${pea[0].subject}*`, `© ꜱʟ ᴘʀᴏɢʀᴀᴍᴍᴇʀꜱ`, wm_fatih, [])
+       KingmdWH.send5ButImg(pea[0].id, `「 Group Settings Changed 」\n\nGroup Subject Has Been Changed To *${pea[0].subject}*`, `💖𝙌𝙐𝙀𝙀𝙉 𝙉𝙀𝙏𝙃𝙐💖`, wm_fatih, [])
      }
     })
 
@@ -143,7 +143,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
 
 🌿✑ Description: ${metadata.desc}
 
-🌿✑ සාදරෙන් පිලිගන්නව 🌿 මම 𝙲𝚈𝙱𝙴𝚁_𝙳𝙴𝚅𝙸𝙻 🌿`} )
+🌿✑ සාදරෙන් පිලිගන්නව 🌿 මම 💖𝙌𝙐𝙀𝙀𝙉 𝙉𝙀𝙏𝙃𝙐💖 🌿`} )
                 } else if (anu.action == 'remove') {
                     KingmdWH.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `⭐✑ @${num.split("@")[0]} Left ${metadata.subject}
 
