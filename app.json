@@ -1,29 +1,29 @@
 {
-  "name": "🌿𝚂ˡ 𝙿ʳᵒᵍʳᵃᵐᵐᵉʳˢ🌿 ᎷᎠ V1",
+  "name": "💖𝙌𝙐𝙀𝙀𝙉 𝙉𝙀𝙏𝙃𝙐💖",
   "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/KING-BOT-OFFICIAL/KING-BOT-MD",
-  "logo": "https://i.ibb.co/TthNM8P/null-20220626-WA0109.jpg",
+  "repository": "https://github.com/Blacksavi/QUEEN-NETHU",
+  "logo": "https://i.ibb.co/YbwcKVt/IMG-20220703-WA0091.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "env": { 
         "OWNER_NUMBER": {
             "description": "",
             "required": true,
-            "value":"94716388240"
+            "value":"94786714166"
         },
         "OWNER_NAME": {
             "description": "",
             "required": true,
-            "value":"❤️‍🩹𝙲𝚈𝙱𝙴𝚁_𝙳𝙴𝚅𝙸𝙻❤️‍🩹"
+            "value":"💖𝙎𝘼𝙑𝙄💖"
         },
         "BOT_NAME": {
             "description": "",
             "required": true,
-            "value":"🌿𝚂ˡ 𝙿ʳᵒᵍʳᵃᵐᵐᵉʳˢ🌿 ᎷᎠ"
+            "value":"💖𝙌𝙐𝙀𝙀𝙉 𝙉𝙀𝙏𝙃𝙐💖"
         },
        "STICKER_PACKAGE": {
             "description": "",
             "required": true,
-            "value":"🌿𝚂ˡ 𝙿ʳᵒᵍʳᵃᵐᵐᵉʳˢ🌿"
+            "value":"💖𝙌𝙐𝙀𝙀𝙉 𝙉𝙀𝙏𝙃𝙐💖"
         },
         "HEROKU_APP_NAME": {
             "description": "",
