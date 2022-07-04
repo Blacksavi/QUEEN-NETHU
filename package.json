@@ -1,5 +1,5 @@
 {
-  "name": "mizty",
+  "name": "💖𝙌𝙐𝙀𝙀𝙉 𝙉𝙀𝙏𝙃𝙐💖",
   "version": "2.0.0",
   "description": "WhatsApp Using Lib Baileys Multi Device",
   "main": "index.js",
@@ -18,7 +18,7 @@
     "bot-md",
     "multi-device"
   ],
-  "author": "CYBER_DEVIL",
+  "author": "💖𝙎𝘼𝙑𝙄💖",
   "license": "MIT",
   "dependencies": {
     "@adiwajshing/baileys": "^4.0.1",
@@ -64,10 +64,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cyberdev001/SL-PROGRAMMERS-MD"
+    "url": "git+https://github.com/Blacksavi/QUEEN-NETHU"
   },
   "bugs": {
-    "url": "https://github.com/cyberdev001/SL-PROGRAMMERS-MD"
+    "url": "https://github.com/Blacksavi/QUEEN-NETHU"
   },
-  "homepage": "https://github.com/cyberdev001/SL-PROGRAMMERS-MD#readme"
+  "homepage": "https://github.com/Blacksavi/QUEEN-NETHU#readme"
 }
