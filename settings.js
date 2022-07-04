@@ -12,20 +12,20 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['94716388240']
-global.premium = ['94716388240']
-global.ownernomer = '94716388240'
-global.ownername = '𝚂𝙻 𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙼𝙴𝚁𝚂'
-global.botname = '𝚂𝙻 𝚆𝙰 𝙱𝙾𝚃'
-global.footer = '</> 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝚂𝙻 𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙼𝙴𝚁𝚂 </>'
-global.ig = 'https://github.com/cyberdev001/SL-PROGRAMMERS-MD'
+global.owner = ['94786714166']
+global.premium = ['9478671466']
+global.ownernomer = '94719876337'
+global.ownername = '💖𝙎𝘼𝙑𝙄💖'
+global.botname = '💖𝙌𝙐𝙀𝙀𝙉 𝙉𝙀𝙏𝙃𝙐💖'
+global.footer = '</> 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝚂𝙰𝚅𝙸 𝚃𝙴𝙰𝙼 </>'
+global.ig = 'https://github.com/Blacksavi/QUEEN-NETHU'
 global.region = 'Sri Lanka'
-global.sc = 'https://github.com/cyberdev001/SL-PROGRAMMERS-MD'
-global.myweb = 'https://youtube.com/channel/UChMPU0p6C_turIlKkH0Nvig'
-global.packname = '𝚂𝙻 𝚆𝙰 𝙱𝙾𝚃'
-global.author = '𝚂𝙻 𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙼𝙴𝚁𝚂'
+global.sc = 'https://github.com/Blacksavi/QUEEN-NETHU'
+global.myweb = 'https://youtube.com/channel/UCO2WtM1n16ASXrOaPkw38SA'
+global.packname = '💖𝙌𝙐𝙀𝙀𝙉 𝙉𝙀𝙏𝙃𝙐💖'
+global.author = '𝚂𝙰𝚅𝙸 𝚃𝙴𝙰𝙼'
 global.sessionName = 'session'
-global.prefa = ['','!','.','🌿','🔥','🎮']
+global.prefa = ['','!','.','💖','🔥','🎮']
 global.sp = '⭔'
 global.mess = {
     success: 'Done ✓',
